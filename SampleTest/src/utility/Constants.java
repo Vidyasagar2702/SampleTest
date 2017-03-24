@@ -4,9 +4,9 @@ public class Constants {
 	
     public static final String URL = "http://www.gmail.com";
     
-    public static final String UserName = "mbchandini@gmail.com";
+    public static final String UserName = "xxxxxxxxx@gmail.com";
 
-    public static final String Password = "Jesus14U!";
+    public static final String Password = "xxxxxxxx";
     
     public static final String SearchKey = "Google";
 
@@ -40,7 +40,7 @@ public class Constants {
     
     public static final String signoutURL= "https://accounts.google.com/SignOutOptions?";
     
-    public static final String sendermail = "bmarychandini@gmail.com";
+    public static final String sendermail = "xxxxxxxxx@gmail.com";
     
 
 }
