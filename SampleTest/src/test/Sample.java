@@ -5,7 +5,7 @@ package test;
 import java.io.IOException;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -21,7 +21,9 @@ public class Sample {
 	 @BeforeMethod
 	public void setUp() throws Exception {
 		 			//System.setProperty("webdriver.gecko.driver", "C:/Users/mabernard/Downloads/geckodriver-v0.14.0-win64/geckodriver.exe");
-		             driver = (WebDriver) new InternetExplorerDriver();	 	 	           
+		 System.setProperty("webdriver.chrome.driver", "C:\\Users\\mabernard\\Downloads\\chromedriver_win32\\chromedriver.exe");	
+			           
+		 driver = (WebDriver) new ChromeDriver();	 	 	           
 	 	 	         
 	 	     }
 	 
