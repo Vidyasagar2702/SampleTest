@@ -4,11 +4,11 @@ public class Constants {
 	
     public static final String URL = "http://www.gmail.com";
     
-    public static final String UserName = "bchandini@gmail.com";
+    public static final String UserName = "xxxxx@gmail.com";
 
-    public static final String Password = "Jesus14U!";
+    public static final String Password = "xxxxxxxxxxx";
     
-    public static final String SearchKey = "Clovia";
+    public static final String SearchKey = "makemytripmails.com";
 
     public static final String Path_TestData = "C:\\Users\\mabernard\\workspace\\SampleTest\\src\\testData\\";
 
