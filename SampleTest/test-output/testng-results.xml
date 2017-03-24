@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="128876" started-at="2017-03-23T17:58:04Z" finished-at="2017-03-23T18:00:13Z">
+  <suite name="Default suite" duration-ms="25981" started-at="2017-03-24T15:03:03Z" finished-at="2017-03-24T15:03:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="128876" started-at="2017-03-23T17:58:04Z" finished-at="2017-03-23T18:00:13Z">
-      <class name="test.SampleEmail">
-        <test-method status="PASS" signature="test()[pri:0, instance:test.SampleEmail@4645801a]" name="test" duration-ms="128865" started-at="2017-03-23T23:28:04Z" finished-at="2017-03-23T23:30:13Z">
+    <test name="Default test" duration-ms="25981" started-at="2017-03-24T15:03:03Z" finished-at="2017-03-24T15:03:29Z">
+      <class name="test.SampleComposeEmail">
+        <test-method status="PASS" signature="test()[pri:0, instance:test.SampleComposeEmail@46a7041a]" name="test" duration-ms="25970" started-at="2017-03-24T20:33:03Z" finished-at="2017-03-24T20:33:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-      </class> <!-- test.SampleEmail -->
+      </class> <!-- test.SampleComposeEmail -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

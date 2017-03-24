@@ -138,7 +138,7 @@ public class SampleEmail {
 		 wait.until(ExpectedConditions.presenceOfElementLocated(By.id("gb_71")));
 		 
 		 
-		 driver.navigate().to("https://accounts.google.com/SignOutOptions?");
+		 driver.navigate().to(Constants.signoutURL);
 		 try {
 		 driver.switchTo().alert().accept();
 		 }
@@ -146,8 +146,8 @@ public class SampleEmail {
 		 {
 			 ex.printStackTrace();
 		 }
-		 wait.until(ExpectedConditions.presenceOfElementLocated(By.id("signout")));
-		 driver.findElement(By.id("signout")).click();
+		 wait.until(ExpectedConditions.presenceOfElementLocated(By.id(Constants.idsignout)));
+		 driver.findElement(By.id(Constants.idsignout)).click();
 		 By linktt = By.cssSelector(".hidden-small");
 		 driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		 Assert.assertTrue(driver.findElement(linktt).isDisplayed());
