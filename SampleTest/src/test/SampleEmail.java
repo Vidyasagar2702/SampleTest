@@ -50,7 +50,7 @@ public class SampleEmail {
 		 //String searchkey = ExcelUtils.getCellData(1, 3);		 	
 		 driver.findElement(By.id(Constants.idsearch)).sendKeys(Constants.SearchKey);
 		 wait.until(ExpectedConditions.presenceOfElementLocated(By.id(Constants.idsearchenter)));
-	     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		 driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		 driver.findElement(By.id(Constants.idsearchenter)).click();
 		 driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);		 
 		 Boolean isPresent = existsElement("//span[contains(.,'No messages matched your search. Try using')]");
