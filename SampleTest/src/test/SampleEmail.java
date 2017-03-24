@@ -52,10 +52,9 @@ public class SampleEmail {
 		 wait.until(ExpectedConditions.presenceOfElementLocated(By.id(Constants.idsearchenter)));
 	     driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		 driver.findElement(By.id(Constants.idsearchenter)).click();
-
 		 driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);		 
 		 Boolean isPresent = existsElement("//span[contains(.,'No messages matched your search. Try using')]");
-	     int count= 0;
+		 int count= 0;
 		 driver.findElements(By.xpath("//*[@role='checkbox']")).get(count+1).click();
 		 driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		 By del= By.xpath(Constants.xpathdel);
